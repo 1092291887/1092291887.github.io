@@ -1,0 +1,250 @@
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: rgba(0,0,0,.3);
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+.swiper-button-next{
+    position:absolute;
+    top:auto;
+    bottom: 0;
+    left: 50%;
+    transform:rotateZ(-90deg);
+    margin-left: -13.5px;
+}
+#sky{
+    animation: fly 1s infinite;
+}
+@keyframes fly{
+    from{bottom: 1%;opacity: 1;}
+    to{bottom: 3%;opacity: 0;}
+}
+#music{
+    position: absolute;
+    right: 5%;
+    top: 0;
+    z-index: 20;
+    width: 10%;
+    
+}
+#music img{
+    width: 100%;
+/*    position: absolute;*/
+}
+#music .music_off{
+    position: relative;
+    top: -100%;
+    left: 9%;     
+/*    animation: run 3s linear 0s infinite;*/
+}
+#music .gif{
+position: absolute;
+    top: -17%;
+    right: -40%;
+/*display: block;*/
+}
+@keyframes run{
+				0%{
+					transform: rotate(0deg);
+				}
+				100%{
+					transform: rotate(360deg);
+				}
+			}
+
+
+
+
+
+.s1_header{
+    position: absolute;
+    top: 6%;
+    right:10%; 
+}
+.s1_header p{
+    text-align: right;
+}
+.s1_footer p{
+    position: absolute;
+    bottom: 11%;
+    right: 10%;
+}
+.s2_header{
+    position: absolute;
+    top: 5%;
+}
+.s2_footer{
+    position: absolute;
+    bottom: 10%;
+}
+.s2_footer span{
+position: absolute;
+    bottom: 110%;
+    width: 100%;
+    right: 1%;
+}
+.s2_footer h3{
+    position: absolute;
+    top: -56%;
+    width: 100%;
+    right: 1%;
+}
+.s2_footer p{
+    width: 60%;
+    margin: auto;
+}
+.s3_header{
+    position: absolute;
+    right: 31%;
+}
+.s3_header img{
+    margin-bottom: 5%;
+    width: 91%;
+}
+.s3_center p{
+    position: absolute;
+    width: 3%;
+    right: 25%;
+    top: 14%;
+    font-size: 12px;
+} 
+.s3_center img{
+    position: absolute;
+    top: 11%;
+    right: 10%;
+}
+.s4_header img{
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
+.s4_header h4{
+    position: absolute;
+    top: 3%;
+    right: 12%;
+    width: 48%;
+    text-align: right;
+}
+.s4_header p{
+    position: absolute;
+    top: 11%;
+    right: 12%;
+    width: 48%;
+    font-size: 15px;
+    text-align: right;
+}
+.s4_center{
+    position: absolute;
+    top: 35%;
+    left: 6%;
+}
+.s4_footer h4{
+    position: absolute;
+    bottom: 26%;
+    right: 54%;
+    width: 48%;
+    text-align: right;
+}
+.s4_footer p{
+    position: absolute;
+    bottom: 16%;
+    right: 54%;
+    width: 48%;
+    font-size: 15px;
+    text-align: right;
+}
+.s4_footer img{
+    position: absolute;
+    bottom: 16%;
+    right: 13%;
+}
+.s5_header h3{
+position: absolute;
+    top: 12%;
+    text-align: left;
+    left: 7%;
+}
+.s5_header img{
+    position: absolute;
+    top: 26%;
+    left: 7%;
+}
+.s5_header p{
+    position: absolute;
+    top: 66%;
+    width: 36%;
+    left: 9%;
+    font-size: 14px;
+}
+.s5_footer h3{
+    position: absolute;
+    top: 8%;
+    right: 34%;
+    text-align: left;
+}
+.s5_footer img{
+    position: absolute;
+    top: 21%;
+    right: 11%;
+}
+.s5_footer p{
+    position: absolute;
+    top: 59%;
+    width: 36%;
+    right: 11%;
+    font-size: 14px;
+}
+.s6_header h4{
+    position: absolute;
+    top: 6%;
+    right: 8%;
+    text-align: right;
+}
+.s6_header img{
+    position: absolute;
+    top: 23%;
+    right: 8%;
+}
+.s6_header p{
+    position: absolute;
+    bottom: 26%;
+    text-align: right;
+    width: 96%;
+    right: 8%;
+    font-size: 15px;
+}
+.s6_footer img{
+    position: absolute;
+    bottom: 12%;
+    right: 39%;
+    
+}
