@@ -1,0 +1,259 @@
+.header{
+    
+}
+.header img{
+    width:6rem;
+    height: 8.2rem;
+    margin: auto 0.2rem;
+}
+.header p{
+    font-size: 45px;
+    color: #fff;
+    margin-top: -2rem;
+    font-weight: bold;
+    font-family: serif;
+    margin-left: 0.5rem;
+}
+.header-one{
+    margin-top: 0.2rem;
+    margin-left: 0.6rem;
+    width: 1.8rem;
+    height: 0.6rem;
+}
+.header-two{
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+    width: 1.8rem;
+    height: 0.6rem;
+}
+.center{
+    background-color: #fff;
+    width: 6rem;
+    margin:auto 0.2rem;
+    float: left;
+}
+.clearfix::before;
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.one{
+    
+}
+.center-one img{
+    width: 3rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    float: left;
+}
+.center-two{
+    margin-top: 1rem;
+}
+.center-two p{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+    text-decoration: underline;
+}
+.center-two img{
+    width: 2.2rem;
+    height: 1.8rem;
+    margin-left: 0.25rem;
+    margin-top: 0.2rem;
+}
+.center-two h3{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+    text-decoration: underline;
+}
+.center-three{
+}
+.center-three p{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: underline;
+    margin-top: 1.5rem;
+    margin-left: 0.25rem;
+}
+.center-three img{
+    width: 2.2rem;
+    height: 2rem;
+    margin-left: 0.25rem;
+    margin-top: 0.2rem;
+}
+.center-three h3{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 0.25rem;
+    text-decoration: underline;
+}
+.center-four img{
+    width: 3rem;
+    height: 4rem;
+    margin-top: -4rem;
+    margin-left: 0.3rem;
+    float: right;
+    
+}
+.center-five img{
+    width: 3rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    float: left;
+    
+}
+.center-six p{
+    margin-top: 3rem;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+}
+.center-six h3{
+    margin-top: 0.4rem;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+    text-decoration: underline;
+}
+.center-seven p{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    margin-top: 2.8rem;
+    margin-left: 1.0rem;
+}
+.center-seven h3{
+    margin-top: 0.3rem;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 0.4rem;
+    text-decoration: underline;
+}
+.center-eight img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: -2rem;
+    margin-right: 0.4rem;
+    float: right;
+}
+.center-nine img{
+    width: 3rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    float: left;
+}
+.center-ten p{
+    margin-top: 3rem;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+}
+.center-ten h3{
+    margin-top: 0.4rem;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+    text-decoration: underline;
+}
+.center-eleven img{
+    width: 3rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    float: left;
+}
+.center-twelve p{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+    text-decoration: underline;
+    margin-top: 2.3rem;
+}
+.center-twelve img{
+    width: 2.2rem;
+    height: 1.8rem;
+    margin-left: 0.22rem;
+    padding-top: 0.1rem;
+}
+.center-twelve h3{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    font-family: serif;
+    padding-left: 3.5rem;
+    text-decoration: underline;
+}
+
+
+
+
+/*底部*/
+.footer{
+    width: 5rem;
+    padding-top: 2rem;
+    margin: auto
+}
+.footer .col-md-6{
+    border-top: 1px solid #666;
+    margin-top: 1rem;
+    float: left;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+.footer p{
+    color: aliceblue;
+    margin-left: 0.22rem;
+    line-height: 0.7rem;
+}
+.i{
+                    
+   display: block;
+    
+}
+ .i img{
+     margin-top: 0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+    margin-left: 0.15rem;  
+}
+.u{
+ margin:0.5rem;
+    border-top: 1px solid #666;
+     border-bottom: 1px solid #666;
+}
+.i p{
+    color: aliceblue;
+    margin-top: 0.1rem;
+    font-size: 9px
+}
+    

@@ -1,0 +1,436 @@
+/*css样式的重置*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+body{
+    font-family: "Microsoft YaHei","tahoma","arial","Hiragino Sans GB","sans-serif";
+    font-size: 14px;
+    background: #fff;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+
+
+
+/*公共样式*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+/*头部样式*/
+body{
+    background: #fff;
+}
+.style-layout{
+    width: 6.4rem;
+    min-height: 2rem;
+}
+
+/*导航*/
+.style-logo{
+    width: 6.4rem;
+    background: #fff;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+}
+.style-logo i{
+    color: #000;
+    font-size: 15px;
+}
+.style-logo span{
+    display: block;
+    width: 2.1rem;
+    margin: 0.3rem auto;
+}
+.style-logo span img{
+    width: 100%;
+    display:block;
+}
+.style-logo>ul>li {
+    float: left;
+}
+li.col-md-3{
+    width: 25%;
+}
+.right {
+    margin: 0.3rem auto;
+}
+div#hamburger-11 {
+    margin: 0.25rem auto;
+}
+li.col-md-6 {
+    width: 50%;
+}
+.col-md-3 li{
+    float: left;
+   width: 0.5rem;
+}
+.left {
+    padding-left: 0.5rem;
+}
+
+
+
+
+
+
+
+/*侧边栏*/
+.fade{
+    width: 100%;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.89);
+    margin: 0.94rem 0;
+    position: fixed;
+    left: -100%;
+    height: 11.5rem;
+    top:0;
+    transition:0.3s;
+   
+}
+.fade a{
+    color: #fff;
+}
+.fade p{
+    line-height: 1.0rem;
+    font-weight: bold;
+}
+#none{
+    color: #000;
+    z-index: 999;
+    position: absolute;
+}
+#play{
+    animation: down1 1s;
+    animation-fill-mode: forwards;
+}
+/*
+@keyframes down1{
+    from{
+        position: absolute;
+        left: -100%
+    }
+    to{
+        position: absolute;
+        left: 0%;
+        animation-fill-mode:forwards;   
+    }
+}
+*/
+
+
+
+
+
+
+/*汉堡包图标*/
+
+.hamburger .line{
+  width: 30px;
+  height: 2px;
+ background-color: #000;
+  display: block;
+  margin: 8px auto;
+    margin-left: -17px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
+#hamburger-11{
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#hamburger-11.is-active{
+  animation: smallbig 0.6s forwards;
+}
+
+@keyframes smallbig{
+  0%, 100%{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50%{
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+  }
+}
+
+#hamburger-11.is-active .line:nth-child(1),
+#hamburger-11.is-active .line:nth-child(2),
+#hamburger-11.is-active .line:nth-child(3){
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+#hamburger-11.is-active .line:nth-child(2){
+  opacity: 0;
+}
+
+#hamburger-11.is-active .line:nth-child(1){
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(10px) rotate(41deg);
+}
+
+#hamburger-11.is-active .line:nth-child(3){
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-41deg);
+}
+
+
+
+/*头部*/
+.header{
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-top: 1.5rem;
+}
+.header p{
+    font-size: 25px;
+    text-align: center;
+    margin: 0.2rem;
+}
+
+
+
+
+/*中上部*/
+.center h1{
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+}
+.center img{
+    width: 6rem;
+    height: 5rem;
+    margin: 0.15rem;
+}
+.center-one{
+    float: left;
+}
+.clearfix::before;
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.center-one img{
+    width: 2.8rem; 
+    height: 3.5rem;
+    margin: 0.15rem;
+}
+
+.center-one h3{
+    margin-left: 0.28rem;
+    margin-top: -3.6rem;
+}
+.center-one i{
+    margin-left: 1.5rem;
+}
+.center-one p{
+    margin-left: 0.8rem;
+    margin-top: 2.5rem;
+}
+.center-one span{
+    margin-left: 1.1rem;
+
+}
+.center-two img{
+    width: 2.8rem; 
+    height: 3.5rem;
+    margin: 0.15rem;
+}
+
+.center-two h3{
+    margin-left: 3.3rem;
+    margin-top: -3.6rem;
+}
+.center-two i{
+    margin-left: 1.5rem;
+}
+.center-two p{
+    margin-left: 3.8rem;
+    margin-top: 2.5rem;
+}
+.center-two span{
+    margin-left: 1.1rem;
+
+}
+
+
+
+
+
+.center-three{
+    float: left;
+}
+
+
+.center-three img{
+    width: 2.8rem; 
+    height: 3.5rem;
+    margin: 0.15rem;
+}
+
+.center-three h3{
+    margin-left: 0.28rem;
+    margin-top: -3.6rem;
+}
+.center-three i{
+    margin-left: 1.5rem;
+}
+.center-three p{
+    margin-left: 1.2rem;
+    margin-top: 2.55rem;
+}
+.center-three span{
+    margin-left: 1.1rem;
+
+}
+
+.center-four img{
+    width: 2.8rem; 
+    height: 3.5rem;
+    margin: 0.15rem;
+}
+
+.center-four h3{
+    margin-left: 3.3rem;
+    margin-top: -3.6rem;
+}
+.center-four i{
+    margin-left: 1.5rem;
+}
+.center-four p{
+    margin-left: 4.35rem;
+    margin-top: 2.55rem;
+}
+.center-four span{
+    margin-left: 1.1rem;
+
+}
+.x{
+    margin-top: 1rem;
+    margin-left: 2.25rem;
+    width: 1.8rem;
+    height: 0.6rem;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+/*底部*/
+.footer{
+    width: 5rem;
+    padding-top: 0.5rem;
+    margin: auto
+}
+.footer .col-md-6{
+    border-top: 1px solid #666;
+    margin-top: 1rem;
+    float: left;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+.footer p{
+    color: #000;
+    margin-left: 0.22rem;
+    line-height: 0.7rem;
+    font-weight: bold;
+}
+.i{
+                    
+   display: block;
+    
+}
+ .i img{
+     margin-top: 0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+    margin-left: 0.15rem;  
+}
+.u{
+ margin:0.5rem;
+    border-top: 1px solid #666;
+     border-bottom: 1px solid #666;
+}
+.i p{
+    color: #000;
+    margin-top: 0.1rem;
+    font-size: 9px;
+    font-weight: bold;
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
